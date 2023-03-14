@@ -1,5 +1,7 @@
-import { Document, Page, StyleSheet } from "@react-pdf/renderer";
+import pdf from "@react-pdf/renderer";
+
 import SelectedPDFTemplate from "./PDFTemplates/selectedPDFTemplate";
+const { Document, Page, StyleSheet } = pdf;
 const styles = StyleSheet.create({
   page: {
     margin: "0 0",
